@@ -1,0 +1,79 @@
+.weatherCard{
+    position: relative;
+    z-index: 99;
+    max-width: 40%;
+    background-color: white;
+    box-shadow: 1px 1px 10px rgba(0, 0, 255,0.3), 1px 1px 10px rgba(0, 225, 255,0.2) ;
+}
+.inner{
+    background-image: linear-gradient(45deg, rgba(0, 0, 255,0.3)
+    ,rgba(0, 225, 255,0.2));
+    padding: 1rem 0.5rem;
+}
+.h1{
+    font-size: 2rem;
+    color:rgba(255, 255, 255, 0.8);
+    font-weight: 900;
+}
+.h2{
+    font-size: 1.3rem;
+    font-weight: 700;
+    color:rgba(255, 255, 255, 0.8);
+}
+.h3{
+    font-size: 1rem;
+    font-weight: 700;
+    color:rgba(255, 255, 255, 0.8);
+    text-transform: capitalize;
+}
+.para{
+    text-transform: capitalize;
+    font-size: 0.8rem;
+    font-weight: 600;
+    color:rgba(255, 255, 255, 0.8);
+}
+.weatherCard .icon{
+    width: 2rem;
+    object-fit: contain;
+    object-position: center;
+    transform: scale(2,2);
+    margin-top:1rem;
+    
+}
+.weatherCard .loading{
+    display:block;
+    margin:2rem auto;
+    width:5rem;
+}
+@media only screen and (min-width: 540px){
+    .inner{
+        display: block;
+        border-radius: 1.5rem;
+        padding : 2rem 3rem ;
+    }
+    .weatherCard{
+        position: absolute;
+        left: 3rem;
+        top: 10rem;
+        border-radius: 1.5rem;
+    }
+    .h1{
+        font-size: 2.9rem;
+    }
+    .h2{
+        font-size: 1.7rem;
+    }
+    .h3{
+        font-size: 1.3rem;
+    }
+    .para{
+        font-size: 0.9rem;
+    }
+    .weatherCard .icon{
+        width:2.5rem;
+        margin-top: 2rem;
+    }
+    .weatherCard .loading{
+        width:10rem;
+    }
+}
