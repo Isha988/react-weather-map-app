@@ -10,7 +10,7 @@ This is a react weather application. It uses OpenWeatherMap API for weather info
 
 The map is controlled using its viewState property which changes as map is moved to make it interactive.
 
-**Map Styling**
+**Map Styling:**
 
 In Mapbox, map styling is super easy with **Mapbox Styles API** (link in references)
 
